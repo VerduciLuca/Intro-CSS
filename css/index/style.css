@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;700&family=Righteous&display=swap');
+
+body {
+    background-color: lightblue;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    background-color: rgb(241, 156, 241);
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.paragrafo {
+    background-color: rgb(146, 215, 255);
+    font-style: italic;
+    width: 50%;
+    height: 300px;
+    /* max-width: 400px;
+    min-width: 100px; */
+    overflow: hidden;
+    /* non fa vedere l'overflow */
+    overflow: scroll;
+    /* rende l'overflow scrollabile, non si usa */
+    overflow: auto;
+    /* usa questo e fa da solo */
+    /* padding: 24px; */
+    /* padding-left: 40px; */
+    padding: 50px 20px 100px 8px;
+    margin: 24px;
+    /* box-sizing: border-box; */
+    /* border box rende il padding parte della misura */
+}
+
+.white-font {
+    color: rgb(255, 255, 255);
+}
+
+#title {
+    font-family: 'Righteous', cursive;
+    height: 100px;
+    /* box-sizing: border-box; */
+    color: blue;
+    /* border-style: solid;
+    border-width: 30px;
+    border-color: rgb(244, 160, 255); */
+    border: 30px solid rgb(255, 164, 240);
+    border-radius: 50px 1px 40px 1px;
+
+}
+
+div h2 {
+    border: solid;
+}
+
+h2,
+p {
+    text-transform: lowercase;
+}
+
+.empty-div {
+    border: 1px;
+    width: 100%;
+    height: 400px;
+    background-image: url(../../assets/sfondo-grande.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.border {
+    border: 2px solid white;
+}
+
+.example-div {
+    height: 20px;
+    background-color: blueviolet;
+    display: block;
+    width: 500px;
+}
+
+.example-img {
+    width: 300px;
+    /* display: inline-block; */
+}
+
+.example-a {
+    /* width: 300px; */
+    display: inline-block;
+
+}
+
+.scatola {
+    border: 2px solid mintcream;
+    height: 300px;
+
+}
+
+.s-a{
+    background-color: lightskyblue;
+}
+.s-b{
+    background-color: rgb(103, 197, 255);
+}
+.s-c{
+    background-color: rgb(78, 187, 255);
+}
+.s-d{
+    background-color: rgb(27, 168, 255);
+}
+.s-e{
+    background-color: rgb(2, 158, 255);
+}
+.s-f{
+    background-color: rgb(25, 129, 194);
+}
+.s-g{
+    background-color: rgb(27, 99, 143);
+}
+.s-h{
+    background-color: rgb(55, 100, 128);
+}
+.s-i{
+    background-color: rgb(96, 143, 172);
+}
+.s-l{
+    background-color: rgb(29, 82, 116);
+}
