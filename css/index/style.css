@@ -99,33 +99,63 @@ p {
 
 }
 
-.s-a{
+.s-a {
     background-color: lightskyblue;
 }
-.s-b{
+
+.s-b {
     background-color: rgb(103, 197, 255);
+    position: relative;
+    left: 50px;
+    top: 100px;
 }
-.s-c{
+
+.s-c {
     background-color: rgb(78, 187, 255);
 }
-.s-d{
-    background-color: rgb(27, 168, 255);
+
+.s-d {
+    background-color: rgb(18, 137, 211);
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    left: 50px;
+    top: 100px;
 }
-.s-e{
+
+.s-e {
     background-color: rgb(2, 158, 255);
+    position: relative;
 }
-.s-f{
+
+.s-f {
     background-color: rgb(25, 129, 194);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
 }
-.s-g{
+
+.s-g {
     background-color: rgb(27, 99, 143);
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    right: 100px;
 }
-.s-h{
+
+.s-h {
     background-color: rgb(55, 100, 128);
 }
-.s-i{
+
+.s-i {
     background-color: rgb(96, 143, 172);
+    position: sticky;
+    bottom: 0px;
 }
-.s-l{
+
+.s-l {
     background-color: rgb(29, 82, 116);
 }
